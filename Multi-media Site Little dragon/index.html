@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Dragon</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--##############   HEADER -->
+    <!--##############   NAV -->
+
+    <header>
+      <nav class="nav">
+        <a class="nav__logo-wrap" href="index.html">
+          <img
+            class="nav__logo"
+            alt="little dragon logo"
+            src="assets/nav__logo.png"
+        /></a>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__text" href="about.html"> About </a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__text" href="content.html"> Content </a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__text" href="contact.html"> Contact </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!--##############   HERO -->
+      <div class="hero">
+        <img
+          class="hero__img"
+          alt="little dragon group"
+          src="assets/home__header_img_mobile.png"
+        />
+      </div>
+      <!--############## INTRO-->
+      <section class="intro">
+        <div class="intro__text">
+          <h2>About</h2>
+          <p class="intro__paragraph">
+            Little Dragon are a Swedish electronic/ indietronica music band from
+            Gothenburg, formed in 1996. The band consists of Yukimi Nagano
+            (vocals, percussion), Erik Bodin (drums), Fredrik Wallin (bass) and
+            Håkan Wirenstrand (keyboards). Little Dragon's first release was the
+            vinyl single "Twice"/"Test"
+          </p>
+          <div class="intro__actions">
+            <a class="btn btn--white">Read more</a>
+          </div>
+        </div>
+
+        <img
+          class="intro__img-small"
+          alt="yukimi wearing an editorial style dress with translucent fabric"
+          src="assets/home__about_img1.jpg"
+        />
+
+        <img
+          class="intro__img-large"
+          alt="little dragon group pic, four members posing with bright orange flowers"
+          src="assets/home__about_img.jpg"
+        />
+      </section>
+      <!--############## HOME-DISCOGRAPHY-->
+      <!--####FNB FNB ADD FIGURE AND CAPTIONS-->
+
+      <section>
+        <div class="discography">
+          <h2 class="discography__heading h2--white">Discography</h2>
+
+          <ol class="discography__list">
+            <li class="discography__card">
+              <figure>
+                <img
+                  class="card__image"
+                  alt="album cover"
+                  src="assets/home__discography_img1.jpg"
+                />
+                <figcaption>
+                  <div class="card__title">New Me, Same Us</div>
+                  <div class="card__subtitle">2020</div>
+                </figcaption>
+              </figure>
+            </li>
+
+            <li class="discography__card">
+              <img
+                class="card__image discography_img2"
+                alt="album cover"
+                src="assets/discography_img2.jpg"
+              />
+              <div class="card__title">Season High</div>
+              <div class="card__subtitle">2017</div>
+            </li>
+
+            <li class="discography__card">
+              <img
+                class="card__image discography_img3"
+                alt="album cover"
+                src="assets/discography_img3.jpg"
+              />
+              <div class="card__title">Best Of 2014</div>
+              <div class="card__subtitle">2014</div>
+            </li>
+            <li class="discography__card">
+              <img
+                class="card__image discography_img4"
+                alt="album cover"
+                src="assets/discography_img4.jpg"
+              />
+              <div class="card__title">Nabuma Rubberband</div>
+              <div class="card__subtitle">2014</div>
+            </li>
+
+            <li class="discography__card">
+              <img
+                class="card__image discography_img8"
+                alt="album cover"
+                src="assets/discography_img8.jpg"
+              />
+              <div class="card__title">Best of</div>
+              <div class="card__subtitle">2014</div>
+            </li>
+
+            <li class="discography__card">
+              <img
+                class="card__image discography_img5"
+                alt="album cover"
+                src="assets/discography_img5.jpg"
+              />
+              <div class="card__title">Ritual Union</div>
+              <div class="card__subtitle">2011</div>
+            </li>
+
+            <li class="discography__card">
+              <img
+                class="card__image discography_img6"
+                alt="album cover"
+                src="assets/discography_img6.jpg"
+              />
+              <div class="card__title">Machine Dreams</div>
+              <div class="card__subtitle">2009</div>
+            </li>
+
+            <li class="discography__card">
+              <img
+                class="card__image discography_img7"
+                alt="album cover"
+                src="assets/discography_img7.jpg"
+              />
+              <div class="card__title">Little Dragon</div>
+              <div class="card__subtitle">2007</div>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <!--############## HOME-VIDEO-->
+
+      <div class="home__video">
+        <iframe
+          class="home__iframe"
+          src="https://www.youtube.com/embed/lB_VTqaPC08"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <!--############## UPCOMING EVENTS-->
+      <section class="tour">
+        <h2 class="tour__heading">Upcoming Events</h2>
+
+        <ol class="tour__list">
+          <!--############## TICKET 1-->
+
+          <li class="tour__item item__beuningen">
+            <div class="tour__item-wrap">
+              <img
+                class="tour__image beuningen__image"
+                alt="little dragon live in concert"
+                src="assets/home__events_img1.jpg"
+              />
+
+              <h3 class="tour__title">Down the rabbit hole</h3>
+              <div class="tour__row tour__text">
+                <div class="tour__column-large">
+                  <p class="tour__subtitle">Beuningen, Netherlands</p>
+                  <p>
+                    Join us along with many talented artists. Line-up: Gorillaz,
+                    Disclosure, Two Door Cinema Club, Little Dragon, Jamie xx,
+                    NAO, Whitney, boy pablo, Slowthai, IDLES.
+                  </p>
+                  <div class="tour__btn">
+                    <a
+                      class="btn btn--black"
+                      href="https://downtherabbithole.nl/tickets"
+                    >
+                      Book now
+                    </a>
+                  </div>
+                </div>
+                <div class="tour__column-small">
+                  <div class="tour__date-wrap">
+                    <div class="tour__date">27 August 2021</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!--############## TICKET 2-->
+          <li class="tour__item item__cologne">
+            <img
+              class="tour__image"
+              alt="little dragon live in concert"
+              src="assets/home__events_img2.jpg"
+            />
+
+            <h3 class="tour__title tour__title--white">Burgerhaus Stollwerk</h3>
+            <div class="tour__row tour__text">
+              <div class="tour__column-large--white">
+                <p class="tour__subtitle">Cologne, Germany</p>
+                <p>
+                  The last time Little Dragon was in Cologne was years ago. They
+                  are currently playing 1 show in Cologne. Come and watch one of
+                  the best live acts from Switzerland to date!
+                </p>
+                <div class="tour__btn">
+                  <a
+                    class="btn btn--white"
+                    href="https://www.eventim.de/event/little-dragon-buergerhaus-stollwerck-12880512/?affiliate=SNK"
+                  >
+                    Book now
+                  </a>
+                </div>
+              </div>
+              <div class="tour__column-small">
+                <div class="tour__date-wrap">
+                  <div class="tour__date">12 November 2021</div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!--############## TICKET 3-->
+          <li class="tour__item item__paris">
+            <img
+              class="tour__image"
+              alt="little dragon live in concert"
+              src="assets/home__events_img3.jpg"
+            />
+
+            <h3 class="tour__title">Le Trabendo</h3>
+            <div class="tour__row tour__text">
+              <div class="tour__column-large">
+                <p class="tour__subtitle">Paris, France</p>
+                <p>
+                  One year after the release of their EP "Lover Chanting", the
+                  Swedish quartet Little Dragon is making a comeback with their
+                  new track "Tongue Kissing". Join us at Le Trabendo.
+                </p>
+                <div class="tour__btn">
+                  <a
+                    class="btn btn--black"
+                    href="https://songkick.fnacspectacles.com/place-spectacle/ticket-evenement/pop-rock-folk-little-dragon-mantrali-lt.htm?utm_campaign=songkick_affiliation&utm_medium=affiliation&utm_source=songkick"
+                  >
+                    Book now
+                  </a>
+                </div>
+              </div>
+              <div class="tour__column-small">
+                <div class="tour__date-wrap">
+                  <div class="tour__date">13 November 2021</div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+    </main>
+    <!--############## FOOTER-->
+
+    <footer>
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="footer__text" href="index.html"> Home </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__text" href="about.html"> About </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__text" href="content.html"> Content </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__text" href="contact.html"> Contact </a>
+        </li>
+      </ul>
+      <div class="icons">
+        <a
+          class="icon icon__youtube-wrap"
+          href="https://www.youtube.com/channel/UC9BvsAu_LU1McWVnpSKmReA"
+        >
+          <svg
+            class="icon__youtube"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 511.147 511.147"
+            xmlns:v="https://vecta.io/nano"
+          >
+            <path
+              d="M506.027 147.2c0-1.707-5.12-39.253-21.333-57.173-19.627-21.333-40.96-23.893-52.053-24.747h-3.413c-69.12-5.12-172.373-5.973-174.08-5.973-.853 0-104.96.853-173.227 7.68h-2.56C67.413 67.84 46.08 70.4 27.307 91.733 10.24 109.653 5.12 148.053 5.12 149.76c0 0-5.12 43.52-5.12 87.04v40.107c0 42.667 5.12 86.187 5.12 87.04 0 1.707 5.12 39.253 21.333 57.173 17.92 20.48 39.253 23.04 52.907 24.747 2.56 0 4.267 0 6.827.853 39.253 3.413 163.84 5.12 168.96 5.12.853 0 104.96 0 174.08-7.68h2.56c11.947-.853 33.28-3.413 52.053-24.747 17.067-17.92 22.187-56.32 22.187-58.027 0 0 5.12-43.52 5.12-87.04V234.24c0-42.667-5.12-86.187-5.12-87.04zM494.08 276.053c0 42.667-5.12 85.333-5.12 85.333-1.707 9.387-6.827 36.693-17.92 48.64-14.507 17.067-31.573 18.773-40.96 19.627h-2.56c-68.267 5.12-171.52 5.12-172.373 5.12s-128.853-1.707-166.4-5.973c-2.56 0-5.12-.853-7.68-.853-11.947-.853-29.013-3.413-42.667-18.773-10.24-11.093-16.213-38.4-17.067-47.787 0-.853-5.12-43.52-5.12-85.333v-40.107c0-42.667 5.12-85.333 5.12-85.333.853-9.387 6.827-36.693 17.067-48.64C53.76 84.907 69.973 83.2 80.213 82.347h2.56c68.267-5.12 171.52-5.973 172.373-5.973s104.107.853 172.373 5.973h3.413c9.387.853 26.453 2.56 40.96 19.627 10.24 11.947 15.36 39.253 17.067 48.64.853 1.707 5.12 44.373 5.12 85.333v40.106zm-132.267-19.626l-162.133-94.72a7.75 7.75 0 0 0-8.533 0c-2.56 1.707-4.267 4.267-4.267 7.68V354.56c0 3.413 1.707 5.973 4.267 7.68 1.707.853 2.56.853 4.267.853s2.56 0 4.267-.853l162.133-90.453c2.56-1.707 4.267-4.267 4.267-7.68s-1.708-5.974-4.268-7.68zm-157.866 83.626v-156.16l136.533 80.213-136.533 75.947z"
+            />
+          </svg>
+        </a>
+        <a
+          class="icon icon__facebook-wrap"
+          href="https://www.facebook.com/littledragonpage/"
+        >
+          <svg
+            class="icon__facebook"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            xmlns:v="https://vecta.io/nano"
+          >
+            <path
+              d="M469.333 0H42.667C18.773 0 0 18.773 0 42.667v426.667C0 493.227 18.773 512 42.667 512h196.267 102.4 128C493.227 512 512 493.227 512 469.333V42.667C512 18.773 493.227 0 469.333 0zM256 494.933V324.267h-68.267V256H256v-59.733c0-48.64 37.547-89.6 85.333-93.867h76.8v68.267h-68.267c-14.507 0-25.6 11.093-25.6 25.6V256H409.6v68.267h-85.333v170.667H256zm238.933-25.6c0 14.507-11.093 25.6-25.6 25.6h-128v-153.6h85.333v-102.4h-85.333v-42.667c0-5.12 3.413-8.533 8.533-8.533H435.2v-102.4h-94.72c-57.173 5.12-101.547 53.76-101.547 110.933v42.667h-68.267v102.4h68.267v153.6H42.667c-14.507 0-25.6-11.093-25.6-25.6V42.667c0-14.507 11.093-25.6 25.6-25.6h426.667c14.507 0 25.6 11.093 25.6 25.6v426.666z"
+            />
+          </svg>
+        </a>
+
+        <a
+          class="icon icon__instagram-wrap"
+          href="https://www.instagram.com/littledragonflicks/?hl=en"
+        >
+          <svg
+            class="icon__instagram"
+            xmlns="http://www.w3.org/2000/svg"
+            width="43"
+            height="43"
+            fill="none"
+            xmlns:v="https://vecta.io/nano"
+          >
+            <g clip-path="url(#A)" fill="#000">
+              <path
+                d="M36.4.067H6.533C2.931.067 0 2.998 0 6.6v29.867C0 40.07 2.932 43 6.533 43v-.085C7.296 43 8.682 43 11.2 43h25.2c3.603 0 6.533-2.932 6.533-6.533V6.6c0-3.603-2.932-6.533-6.533-6.533zm4.667 36.4c0 2.573-2.093 4.667-4.667 4.667H6.533c-2.573 0-4.667-2.093-4.667-4.667V6.6c0-2.573 2.093-4.667 4.667-4.667H36.4c2.573 0 4.667 2.093 4.667 4.667v29.867zM21.466 7.534a14.02 14.02 0 0 0-14 14 14.02 14.02 0 0 0 14 14 14.02 14.02 0 0 0 14-14 14.02 14.02 0 0 0-14-14zm0 26.133A12.15 12.15 0 0 1 9.333 21.534 12.15 12.15 0 0 1 21.466 9.4 12.15 12.15 0 0 1 33.6 21.534a12.15 12.15 0 0 1-12.133 12.133zm-.043-20.577c-4.655 0-8.444 3.788-8.444 8.444s3.788 8.444 8.444 8.444 8.444-3.788 8.444-8.444-3.788-8.444-8.444-8.444zm0 15.021c-3.627 0-6.577-2.95-6.577-6.577s2.95-6.577 6.577-6.577S28 17.907 28 21.534s-2.95 6.577-6.577 6.577zM35.467 9.4a1.87 1.87 0 0 0 1.867-1.867 1.87 1.87 0 0 0-1.867-1.867A1.87 1.87 0 0 0 33.6 7.533 1.87 1.87 0 0 0 35.467 9.4z"
+              />
+            </g>
+            <defs>
+              <clipPath id="A">
+                <path
+                  fill="#fff"
+                  transform="translate(0 .067)"
+                  d="M0 0h42.933v42.933H0z"
+                />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+
+        <a
+          class="icon icon__twitter-wrap"
+          href="https://twitter.com/LittleDragon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+        >
+          <svg
+            class="icon__twitter"
+            xmlns="http://www.w3.org/2000/svg"
+            width="46"
+            height="46"
+            fill="none"
+            xmlns:v="https://vecta.io/nano"
+          >
+            <path
+              d="M45.737 8.479c-.234-.234-.625-.312-.937-.234l-1.562.547a10.7 10.7 0 0 0 1.952-3.357c.156-.39.078-.703-.156-.937a.83.83 0 0 0-.937-.156l-5.621 2.186c0 .078-.078 0-.156 0-1.249-.703-4.294-2.264-6.48-2.264-5.543.078-9.994 4.763-9.994 10.462v.312c-8.12-1.562-12.57-3.904-17.411-8.979l-.781-.781-.468.937C.53 11.29 2.404 15.897 5.449 19.02c-1.405-.234-2.342-.703-3.201-1.405-.312-.234-.703-.312-1.093-.078-.312.156-.468.625-.39 1.015 1.093 3.669 3.826 6.637 6.793 8.432-1.405 0-2.577-.156-3.748-.937-.312-.156-.781-.156-1.093.078s-.468.625-.312 1.015c1.405 3.982 4.138 6.09 8.51 6.637-2.264 1.327-5.231 2.42-9.838 2.499-.468 0-.859.312-1.015.703-.156.468 0 .859.312 1.171 2.811 2.264 9.057 3.591 16.787 3.591 13.742 0 24.985-12.258 24.985-27.327v-.234c1.718-.859 3.123-2.498 3.826-4.763.078-.312 0-.703-.234-.937zm-4.685 4.45l-.468.156v1.327c0 14.21-10.54 25.766-23.423 25.766-7.105 0-11.868-1.171-14.444-2.42 5.387-.39 8.51-2.108 10.931-3.982l1.952-1.405h-2.342c-4.45 0-7.183-1.249-8.745-4.216 1.405.468 2.889.468 4.528.39.625-.078 1.249-.078 1.874-.078l.234-1.562c-2.967-.859-6.48-3.514-8.198-7.105 1.562.703 3.279.859 4.841.859h2.42l-1.952-1.406c-1.64-1.171-6.48-5.309-4.138-11.243 4.997 4.919 9.76 7.183 18.348 8.745l.937.156v-2.186c0-4.841 3.748-8.823 8.432-8.901 1.796-.078 4.763 1.562 5.621 2.03.469.234.937.312 1.405.156 1.171-.39 2.577-.937 4.138-1.562-.703 1.171-1.64 2.264-2.889 3.279-.312.234-.39.703-.234 1.093s.625.547 1.015.39l3.045-1.015c-.547 1.015-1.405 2.186-2.889 2.733z"
+              fill="#000"
+            />
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
